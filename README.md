@@ -22,7 +22,7 @@ General Instructions
 1. Download CI Installer, rename the folder to 'install' and put it in the root
 directory of your CI install (as a sibling to the /system folder).
 2. Make an SQL dump of your desired database structure and intial data and paste 
-it into assets/install.sql
+it into assets/install.sql.
 3. Open up index.php and change "Your App" in the <title> to your app's name.
 4. If your CI application folder is a sibling of your system folder instead of a 
 child (this is common), do a find/replace to replace 'system/application' with 
